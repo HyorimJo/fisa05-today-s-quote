@@ -1,5 +1,3 @@
-# quotes.py
-# pip install requests
 import requests
 from html import unescape
 from datetime import datetime, timezone, timedelta
@@ -8,20 +6,22 @@ URL = "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand&per_page=1"
 README_PATH = "README.md"
 
 def get_quote():
-    """Quotes on Design에서 랜덤 명언을 가져옴"""
-    response = requests.get(URL, headers={"Accept": "application/json"})
-    if response.status_code == 200:
-        data = response.json()[0]
-        quote = unescape(data['content']['rendered']).strip().replace("<p>", "").replace("</p>", "")
-        author = data['title']['rendered'].strip()
-        return quote, author
-    else:
-        return "명언을 불러올 수 없습니다.", "Unknown"
+    """Quotes on Design에서 랜덤 명언을 가져옴. 데이터가 없으면 다시 요청."""
+    for _ in range(5):  # 최대 5번까지 재시도
+        response = requests.get(URL, headers={"Accept": "application/json"})
+        if response.status_code == 200:
+            data = response.json()
+            if data:
+                quote = unescape(data[0]['content']['rendered']).strip().replace("<p>", "").replace("</p>", "")
+                author = data[0]['title']['rendered'].strip()
+                if quote:
+                    return quote, author
+    # 여기까지 도달하면 실패
+    return "항상 노력하라. 운은 준비된 자에게 온다.", "Seneca"
 
 def update_readme():
-    """README.md 파일 생성 또는 덮어쓰기"""
     quote, author = get_quote()
-    now = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S")  # KST 기준 시간
+    now = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S")  # 한국 시간
 
     readme_content = f"""
 # 📘 Daily Design Quote

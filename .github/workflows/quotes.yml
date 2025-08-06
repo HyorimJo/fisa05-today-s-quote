@@ -3,7 +3,7 @@ name: Generate Daily Quote
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정 (UTC = 오전 9시 KST)
+    - cron: '0 0 * * *'  # 매일 자정 (UTC = 오전 9시 KST)
   workflow_dispatch:
 
 jobs:
@@ -27,8 +27,9 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
           if [ -f README.md ]; then
             git add README.md
             git commit -m "📝 Update daily quote" || echo "No changes to commit"
