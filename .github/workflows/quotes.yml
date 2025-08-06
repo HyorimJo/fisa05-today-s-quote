@@ -1,0 +1,26 @@
+# .github/workflows/quotes.yml
+name: Daily Quote
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 00:00 UTC = 한국 시간 오전 9시
+  workflow_dispatch: # 수동 실행도 가능
+
+jobs:
+  get-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run quote script
+        run: python quotes.py
