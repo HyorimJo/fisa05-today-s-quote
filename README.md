@@ -1,10 +1,10 @@
 
 # 📘 Daily Design Quote
 
-> 💬 **"항상 노력하라. 운은 준비된 자에게 온다."**  
-> — *Seneca*
+> 💬 **"Well done is better than well said.  "**  
+> — *Benjamin Franklin*
 
-⏳ 업데이트 시간: 2026-11-17 15:48:42 (KST)
+⏳ 업데이트 시간: 2026-11-18 15:07:00 (KST)
 
 ---
 
