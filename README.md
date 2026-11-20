@@ -1,10 +1,10 @@
 
 # 📘 Daily Design Quote
 
-> 💬 **"Well done is better than well said.  "**  
-> — *Benjamin Franklin*
+> 💬 **"We aren’t designing photocopies of web pages, we’re designing web pages.  "**  
+> — *Andy Clarke*
 
-⏳ 업데이트 시간: 2026-11-19 15:08:08 (KST)
+⏳ 업데이트 시간: 2026-11-20 14:55:19 (KST)
 
 ---
 
