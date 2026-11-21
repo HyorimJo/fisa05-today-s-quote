@@ -1,10 +1,10 @@
 
 # 📘 Daily Design Quote
 
-> 💬 **"We aren’t designing photocopies of web pages, we’re designing web pages.  "**  
-> — *Andy Clarke*
+> 💬 **"Design is an opportunity to continue telling the story, not just to sum everything up.    "**  
+> — *Tate Linden*
 
-⏳ 업데이트 시간: 2026-11-20 14:55:19 (KST)
+⏳ 업데이트 시간: 2026-11-21 14:50:01 (KST)
 
 ---
 
