@@ -1,10 +1,10 @@
 
 # 📘 Daily Design Quote
 
-> 💬 **"There is nothing glamorous in what I do. I’m a working man. Perhaps I’m luckier than most in that I receive considerable satisfaction from doing useful work which I, and sometimes others, think is good."**  
-> — *Saul Bass*
+> 💬 **"Copywriting is definitely the profession most written about."**  
+> — *Dave Kotler*
 
-⏳ 업데이트 시간: 2026-11-25 16:13:40 (KST)
+⏳ 업데이트 시간: 2026-11-26 16:01:32 (KST)
 
 ---
 
