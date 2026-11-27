@@ -1,10 +1,10 @@
 
 # 📘 Daily Design Quote
 
-> 💬 **"Copywriting is definitely the profession most written about."**  
-> — *Dave Kotler*
+> 💬 **"We can’t solve problems by using the same kind of thinking we used when we created them.  "**  
+> — *Albert Einstein*
 
-⏳ 업데이트 시간: 2026-11-26 16:01:32 (KST)
+⏳ 업데이트 시간: 2026-11-27 15:57:37 (KST)
 
 ---
 
