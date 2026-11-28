@@ -1,10 +1,10 @@
 
 # 📘 Daily Design Quote
 
-> 💬 **"We can’t solve problems by using the same kind of thinking we used when we created them.  "**  
-> — *Albert Einstein*
+> 💬 **"I shall sing that first line twice, and perhaps if I sing it very quickly, I shall find myself singing the third and fourth lines before I have time to think of them, and that will be a Good Song."**  
+> — *Winnie The Pooh*
 
-⏳ 업데이트 시간: 2026-11-27 15:57:37 (KST)
+⏳ 업데이트 시간: 2026-11-28 15:32:25 (KST)
 
 ---
 
